@@ -1,5 +1,10 @@
 {
   "status": "active",
   "message": "⚠️ AliBaba layout update detected. We are adjusting the scraper. Please wait!",
-  "selectors": { "title": ".module-pdp-title", "price": ".price" }
+  "selectors": {
+    "search_card": ".fy26-product-card-wrapper, .search-card-item",
+    "search_title": ".searchx-product-e-title span",
+    "product_title": ".module-pdp-title, h1",
+    "supplier_card": "[data-supplier-card='true']"
+  }
 }

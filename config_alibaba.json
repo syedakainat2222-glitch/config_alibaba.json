@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "message": "Fixed sold count, shipping, and removed invalid selectors.",
+  "message": "Fixed sold count selector for single product.",
   "selectors": {
     "search_card": ".fy26-product-card-wrapper, .search-card-item, .gallery-card-container-v2, [data-qa-locator='product-item']",
     "search_title": ".searchx-product-e-title a span, .searchx-product-e-title span, .elements-title-normal",
@@ -26,7 +26,7 @@
     "product_title": ".module-pdp-title, h1, [class*='pdp-title'], .product-title-container h1",
     "product_rating": ".detail-review-item .star-rating-list, .module_comment .detail-comment-separator",
     "product_review_count": ".detail-review-item .id-underline, .module_comment .detail-review-item span:last-child",
-    "product_sold_count": ".detail-review-item.detail-separator, .module_comment .detail-comment-separator span:last-child",
+    "product_sold_count": ".detail-comment-separator .detail-review-item.detail-separator:last-child, .detail-review-item.detail-separator",
     "product_price": ".price, .main-price, .pdp-price",
     "product_description": "#J-rich-text-description, .module-product-description, .product-detail-description, #product-description, .rich-text-description",
     "product_image_main": ".current-main-image img, .main-image img, .pdp-main-image img, div[data-module-name='module_productImage'] .current-main-image img",

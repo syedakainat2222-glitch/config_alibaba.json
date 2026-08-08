@@ -66,6 +66,7 @@
     "seller_shipping_fee": "[data-testid='logistics-total-price']",
     "seller_shipping_date": "[data-testid='logistics-delivery-date']",
     "seller_dropshipping": "[data-testid='dropshipping-module'], .module_dropshipping, div[data-module-name='module_dropshipping'], [data-module-name='module_dropshipping']",
+
     "review_item": ".product-review-list .r-border-b-solid, .detail-review-item",
     "reviewer_name": "[class*='r-font-semibold'], .reviewer-name",
     "review_text": ".r-relative.r-mt-\\[4px\\], .review-text",

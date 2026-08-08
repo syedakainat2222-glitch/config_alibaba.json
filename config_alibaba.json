@@ -2,7 +2,7 @@
   "status": "active",
   "message": "Updated selectors for new Alibaba supplier and product layouts.",
   "selectors": {
-    "search_card": ".fy26-product-card-wrapper.gallery-card.pro-search-bg.fy26-product-card.Q4TFX, .fy26-product-card-wrapper, [data-qa-locator='product-item']",
+    "search_card": ".fy26-product-card-wrapper, .search-card-item, .gallery-card-container-v2, [data-qa-locator='product-item']",
     "search_title": ".searchx-product-e-title a span, .searchx-product-e-title span, .elements-title-normal",
     "search_link": ".searchx-product-e-title a, a.search-card-e-title-link",
     "search_price": ".searchx-product-price-price-main, .price, .searchx-product-price .searchx-product-price-price-main",

@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "message": "Updated selectors – removed invalid :has/:contains. Using safe CSS selectors only.",
+  "message": "Fixed sold count, shipping, and removed invalid selectors.",
   "selectors": {
     "search_card": ".fy26-product-card-wrapper, .search-card-item, .gallery-card-container-v2, [data-qa-locator='product-item']",
     "search_title": ".searchx-product-e-title a span, .searchx-product-e-title span, .elements-title-normal",
@@ -26,7 +26,7 @@
     "product_title": ".module-pdp-title, h1, [class*='pdp-title'], .product-title-container h1",
     "product_rating": ".detail-review-item .star-rating-list, .module_comment .detail-comment-separator",
     "product_review_count": ".detail-review-item .id-underline, .module_comment .detail-review-item span:last-child",
-    "product_sold_count": ".module_comment .detail-comment-separator span:last-child",
+    "product_sold_count": ".detail-review-item.detail-separator, .module_comment .detail-comment-separator span:last-child",
     "product_price": ".price, .main-price, .pdp-price",
     "product_description": "#J-rich-text-description, .module-product-description, .product-detail-description, #product-description, .rich-text-description",
     "product_image_main": ".current-main-image img, .main-image img, .pdp-main-image img, div[data-module-name='module_productImage'] .current-main-image img",
@@ -65,7 +65,7 @@
     "seller_certifications": "[data-testid='certifications'] .id-group, .module_certification .id-group",
     "seller_popularity": ".module_comment, .detail-product-comment, .module_atmosphere",
     "seller_ranking": "[href*='rank_list.html'] u, [href*='rank_list.html'] span, .id-mt-4 span.id-underline, .detail-honorary-title",
-    "seller_shipping": "[data-testid='logistics-card']",
+    "seller_shipping": "[data-testid='sku-logistic'] .logistic-item, .sku-logistic .logistic-item, .shipping-info, .logistic-info",
     "seller_shipping_method": "[data-testid='logistics-shipping-method']",
     "seller_shipping_fee": "[data-testid='logistics-total-price']",
     "seller_shipping_date": "[data-testid='logistics-delivery-date']",

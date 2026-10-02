@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "message": "Fixed supplier card selectors for current Alibaba layout.",
+  "message": "Fixed supplier card selectors + new supplier profile layout support.",
   "selectors": {
     "search_card": ".fy26-product-card-wrapper, .search-card-item, .gallery-card-container-v2, [data-qa-locator='product-item']",
     "search_title": ".searchx-product-e-title a span, .searchx-product-e-title span, .elements-title-normal",
@@ -145,6 +145,29 @@
     "supplier_profile_trade_ability": ".icbu-shop-table-col-item",
     "supplier_profile_performance": ".info-item",
     "supplier_profile_performance_title": ".item-title",
-    "supplier_profile_performance_value": ".item-value"
+    "supplier_profile_performance_value": ".item-value",
+
+    "new_profile_container": "[data-module-name='supplierPerformance']",
+    "new_profile_rating": "[data-module-name='supplierPerformance'] span.sp\\:text-base.sp\\:font-bold",
+    "new_profile_reviews": "[data-module-name='supplierPerformance'] span.sp\\:underline",
+    "new_profile_metric": "[data-module-name='supplierPerformance'] .sp\\:text-base.sp\\:font-bold",
+    "new_profile_ranking": "[data-module-name='supplierPerformance'] a[title*='most popular'], [data-module-name='supplierPerformance'] a[title*='best seller'], [data-module-name='supplierPerformance'] a[title*='leading']",
+    "new_profile_online_trans": "[data-module-name='supplierPerformance'] span.sp\\:font-bold",
+    "new_profile_capability_module": "[data-module-name='factoryCapability']",
+    "new_profile_factory_grid": "[data-module-name='factoryCapability'] .sp\\:grid > div",
+    "new_profile_trade_market": "[data-module-name='tradeCapacityMarkets']",
+    "new_profile_trade_stat": "[data-module-name='tradeCapacityMarkets'] .sp\\:flex.sp\\:h-\\[87px\\]",
+    "new_profile_market_row": "[data-module-name='tradeCapacityMarkets'] .sp\\:h-\\[47px\\]",
+    "new_profile_rd": "[data-module-name='rdCapability']",
+    "new_profile_rd_stat": "[data-module-name='rdCapability'] .sp\\:rounded-lg.sp\\:px-4",
+    "new_profile_rd_tags": "[data-module-name='rdCapability'] .sp\\:rounded-full span",
+    "new_profile_production": "[data-module-name='productionCapacities']",
+    "new_profile_production_stat": "[data-module-name='productionCapacities'] .sp\\:rounded-lg.sp\\:p-3",
+    "new_profile_quality": "[data-module-name='qualityManagement']",
+    "new_profile_quality_row": "[data-module-name='qualityManagement'] .sp\\:h-\\[72px\\]",
+    "new_profile_services": "[data-module-name='serviceCapabilities']",
+    "new_profile_cert_card": "[data-module-name='certifications'] .sp\\:basis-\\[280px\\] > div",
+    "new_profile_review_summary": "[data-module-name='reviews'] #review-layout",
+    "new_profile_review_item": "[data-module-name='reviews'] .product-review-list > div"
   }
 }
